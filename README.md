@@ -89,6 +89,18 @@ Run this command to view the output
 ```
 hdfs dfs -cat /user/ubuntu/twitter/twitter-output/part-00000
 ```
+You should get this output 
+```
+-   2193698
+den 1324057
+denna	22716
+denne	4015
+det	532906
+han	778945
+hen	34419
+hon	363764
+```
+Happy coding 😊
 
 
 
