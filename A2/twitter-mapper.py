@@ -20,7 +20,7 @@ for line in sys.stdin:
     
     try:
         data = json.loads(line)
-    except JSONDecodeError as e:
+    except ValueError as e:
         continue
     
     if data.get('retweeted_status'):
